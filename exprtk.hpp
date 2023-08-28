@@ -21501,7 +21501,7 @@ namespace exprtk
                case details::e_mul : return "*";
                case details::e_div : return "/";
                case details::e_mod : return "%";
-			   case details::e_pow : return "^";
+               case details::e_pow : return "^";
                default             : return "" ;
             }
          }
